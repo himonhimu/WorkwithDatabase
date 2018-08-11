@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <TextView
+        android:id="@+id/vName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:autoSizeTextType="uniform"
+        android:text="Hello Bangladesh, How Are You Hello Bangladesh, How Are You"
+        android:autoSizeMaxTextSize="30dp"
+        android:autoSizeMinTextSize="15dp"
+        android:maxLines="5"/>
+
+    <RatingBar
+        android:id="@+id/ratingBar2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:progressDrawable="@android:drawable/star_big_on"
+        android:layout_below="@id/vName"/>
+
+</RelativeLayout>

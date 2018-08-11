@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/sunsetbg"
+    tools:context="bd.himu.himon.workwithdatabase.SubjectiveClass.SubjectiveList">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:alpha=".7">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:weightSum="2">
+                <Button
+                    android:id="@+id/Bangla"
+                    android:layout_width="wrap_content"
+                    android:layout_height="150sp"
+                    android:layout_marginTop="8dp"
+                    android:background="#89992323"
+                    android:text="বাংলা"
+                    android:textColor="@android:color/white"
+                    android:textSize="20sp"
+                    android:layout_margin="3dp"
+                    android:layout_weight="1"
+                    android:textStyle="bold" />
+                <Button
+                    android:id="@+id/English"
+                    android:layout_width="wrap_content"
+                    android:layout_height="150sp"
+                    android:layout_marginTop="8dp"
+                    android:background="#c54d7334"
+                    android:text="English"
+                    android:textAllCaps="false"
+                    android:textColor="#ffffff"
+                    android:textSize="20sp"
+                    android:layout_weight="1"
+                    android:layout_margin="3dp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+                <Button
+                    android:id="@+id/BAffairs"
+                    android:layout_width="match_parent"
+                    android:layout_height="150sp"
+                    android:layout_marginTop="8dp"
+                    android:background="#71000000"
+                    android:text="বাংলাদেশ\nবিষয়াবলী"
+                    android:textColor="@android:color/white"
+                    android:textSize="20sp"
+                    android:layout_margin="3dp"
+                    android:layout_weight="1"
+                    android:textStyle="bold"/>
+                <Button
+                    android:id="@+id/IAffairs"
+                    android:layout_width="match_parent"
+                    android:layout_height="150sp"
+                    android:layout_marginTop="8dp"
+                    android:background="#741e6868"
+                    android:text="আন্তর্জাতিক\nবিষয়াবলী"
+                    android:textColor="@android:color/white"
+                    android:textSize="20sp"
+                    android:layout_weight="1"
+                    android:layout_margin="3dp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+                <Button
+                    android:id="@+id/Geography"
+                    android:layout_width="match_parent"
+                    android:layout_height="150sp"
+                    android:layout_marginTop="8dp"
+                    android:background="#aa8836df"
+                    android:text="ভূগোল"
+                    android:textColor="@android:color/white"
+                    android:textSize="20sp"
+                    android:layout_margin="3dp"
+                    android:layout_weight="1"
+                    android:textStyle="bold" />
+                <Button
+                    android:id="@+id/GS"
+                    android:layout_width="match_parent"
+                    android:layout_height="150sp"
+                    android:layout_marginTop="8dp"
+                    android:background="#77dbdf64"
+                    android:text="সাধারণ বিজ্ঞান"
+                    android:textColor="@android:color/white"
+                    android:textSize="20sp"
+                    android:layout_weight="1"
+                    android:layout_margin="3dp"
+                    android:textStyle="bold"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+                <Button
+                    android:id="@+id/Computer"
+                    android:layout_width="match_parent"
+                    android:layout_height="150sp"
+                    android:layout_marginTop="8dp"
+                    android:background="#98787bc4"
+                    android:text="কম্পিউটার"
+                    android:textColor="@android:color/white"
+                    android:textSize="20sp"
+                    android:layout_margin="3dp"
+                    android:layout_weight="1"
+                    android:textStyle="bold" />
+                <Button
+                    android:id="@+id/Math"
+                    android:layout_width="match_parent"
+                    android:layout_height="150sp"
+                    android:layout_marginTop="8dp"
+                    android:background="#c14dd76b"
+                    android:text="গনিত"
+                    android:textColor="@android:color/white"
+                    android:textSize="20sp"
+                    android:layout_weight="1"
+                    android:layout_margin="3dp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+                <Button
+                    android:id="@+id/MentalA"
+                    android:layout_width="match_parent"
+                    android:layout_height="150sp"
+                    android:layout_marginTop="8dp"
+                    android:background="#b3ff02ea"
+                    android:text="মানসিক দক্ষতা"
+                    android:textColor="@android:color/white"
+                    android:textSize="20sp"
+                    android:layout_margin="3dp"
+                    android:layout_weight="1"
+                    android:textStyle="bold" />
+                <Button
+                    android:id="@+id/Sushashon"
+                    android:layout_width="match_parent"
+                    android:layout_height="150sp"
+                    android:layout_marginTop="8dp"
+                    android:background="#c12db7ac"
+                    android:text="সুশাসন"
+                    android:textColor="@android:color/white"
+                    android:textSize="20sp"
+                    android:layout_weight="1"
+                    android:layout_margin="3dp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

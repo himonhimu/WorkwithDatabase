@@ -1,0 +1,51 @@
+<resources>
+    <string name="app_name">BCS Preparation</string>
+
+
+    <string name="title38">৩৮ তম বিসিএস প্রশ্ন</string>
+    <string name="title37">৩৭ তম বিসিএস প্রশ্ন</string>
+    <string name="title36">৩৬ তম বিসিএস প্রশ্ন</string>
+    <string name="title35">৩৫ তম বিসিএস প্রশ্ন</string>
+    <string name="title34">৩৪ তম বিসিএস প্রশ্ন</string>
+    <string name="title33">৩৩ তম বিসিএস প্রশ্ন</string>
+    <string name="title32">৩২ তম বিসিএস প্রশ্ন</string>
+    <string name="title31">৩১ তম বিসিএস প্রশ্ন</string>
+    <string name="title30">৩০ তম বিসিএস প্রশ্ন</string>
+    <string name="title29">২৯ তম বিসিএস প্রশ্ন</string>
+    <string name="title28">২৮ তম বিসিএস প্রশ্ন</string>
+    <string name="title27">২৭ তম বিসিএস প্রশ্ন</string>
+    <string name="title26">২৬ তম বিসিএস প্রশ্ন</string>
+    <string name="title25">২৫ তম বিসিএস প্রশ্ন</string>
+    <string name="title24">২৪ তম বিসিএস প্রশ্ন</string>
+    <string name="title24C">২৪ তম বিসিএস প্রশ্ন (বাতিল)</string>
+    <string name="title23">২৩ তম বিসিএস প্রশ্ন</string>
+    <string name="title22">২২ তম বিসিএস প্রশ্ন</string>
+    <string name="title21">২১ তম বিসিএস প্রশ্ন</string>
+    <string name="title20">২০ তম বিসিএস প্রশ্ন</string>
+    <string name="title19">১৯ তম বিসিএস প্রশ্ন</string>
+    <string name="title18">১৮ তম বিসিএস প্রশ্ন</string>
+    <string name="title17">১৭ তম বিসিএস প্রশ্ন</string>
+    <string name="title16">১৬ তম বিসিএস প্রশ্ন</string>
+    <string name="title15">১৫ তম বিসিএস প্রশ্ন</string>
+    <string name="title14">১৪ তম বিসিএস প্রশ্ন</string>
+    <string name="title13">১৩ তম বিসিএস প্রশ্ন</string>
+    <string name="title12">১২ তম বিসিএস প্রশ্ন</string>
+    <string name="title11">১১ তম বিসিএস প্রশ্ন</string>
+    <string name="title10">১০ তম বিসিএস প্রশ্ন</string>
+
+    <string-array name="Instructions">
+    <item>Cupcake</item>
+    <item>Donut</item>
+    <item>Eclair</item>
+    <item>Froyo</item>
+    <item>Gingerbread</item>
+    <item>Honeycomb</item>
+    <item>Ice Cream Sandwich</item>
+    <item>Jelly Bean</item>
+    <item>Kit Kat</item>
+    <item>Lollipop</item>
+    <item>Marshmallow</item>
+    <item>Nougat</item>
+</string-array>
+
+</resources>

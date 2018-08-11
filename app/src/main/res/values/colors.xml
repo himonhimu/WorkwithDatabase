@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#000000</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="Choice">#0f093e</color>
+    <color name="MainButton">#d02f1466</color>
+    <color name="stratButtonA">#016328</color>
+    <color name="stratButtonB">#b9059b</color>
+    <color name="ChoseBG">#3cb8ce</color>
+    <color name="BCSlist">#3d000000</color>
+
+
+</resources>
